@@ -6,6 +6,9 @@
   "homepage": "https://github.com/wbytts/npm-wbytts-cli#readme",
   "license": "ISC",
   "main": "lib/cli.js",
+  "bin": {
+    "by": "./bin/by.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
