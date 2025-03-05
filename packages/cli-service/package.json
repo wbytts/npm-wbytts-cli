@@ -1,0 +1,29 @@
+{
+  "name": "@wbytts/cli-service",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "wbytts <wbytts@163.com>",
+  "homepage": "https://github.com/wbytts/npm-wbytts-cli#readme",
+  "license": "ISC",
+  "main": "lib/cli-service.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbytts/npm-wbytts-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@wbytts/cli-service.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/wbytts/npm-wbytts-cli/issues"
+  }
+}
