@@ -5,6 +5,7 @@
   "author": "wbytts <wbytts@163.com>",
   "homepage": "https://github.com/wbytts/npm-wbytts-cli#readme",
   "license": "ISC",
+  "private": false,
   "main": "lib/cli.js",
   "bin": {
     "by": "./bin/by.js"
@@ -29,5 +30,5 @@
   "bugs": {
     "url": "https://github.com/wbytts/npm-wbytts-cli/issues"
   },
-  "gitHead": "dda46af04fc74f300f6282ad9fc4bc67cda6fc55"
+  "gitHead": "a9f5cf294b84e4dc9b887f76563e72ea06389bdd"
 }
