@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports = cliUtils;
-
-function cliUtils() {
-  return 'Hello from cliUtils';
-}
+export default {
+  xxx: 123
+};

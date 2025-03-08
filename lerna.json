@@ -1,4 +1,13 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "0.0.6"
+  "version": "0.0.6",
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

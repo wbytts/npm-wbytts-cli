@@ -6,6 +6,7 @@
   "homepage": "https://github.com/wbytts/npm-wbytts-cli#readme",
   "license": "ISC",
   "private": false,
+  "type": "module",
   "main": "lib/cli-utils.js",
   "directories": {
     "lib": "lib",
@@ -28,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/wbytts/npm-wbytts-cli/issues"
   },
-  "gitHead": "5f0cd237e8c2bfcf56e99d0b1504858aca7be8a2"
+  "gitHead": "5f0cd237e8c2bfcf56e99d0b1504858aca7be8a2",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "inquirer": "^9.2.15"
+  }
 }
